@@ -78,4 +78,4 @@ Python (pandas, NumPy, SciPy, Matplotlib), SQL (SQLite, CTEs, window functions, 
 
 ## Author
 
-**Amit Verma**, Data Analytics. The data is simulated for learning and portfolio purposes.
+**Amit Verma**,Intern Data Analytics.
