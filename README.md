@@ -61,16 +61,6 @@ An end-to-end A/B test analysis (SQL + Python) for a simulated Spotify experimen
 | `data/` | The two simulated CSV files |
 | `images/` | Charts used in this README |
 
-## How to run
-
-```bash
-git clone https://github.com/<your-username>/spotify-podcast-video-ab-test.git
-cd spotify-podcast-video-ab-test
-pip install -r requirements.txt
-jupyter notebook analysis.ipynb      # Kernel > Restart & Run All
-```
-
-The notebook loads the CSVs from `data/` into an in-memory SQLite database. To run the SQL on its own, import both CSVs into SQLite (for example with DB Browser for SQLite) using the table names `users_experiment_map` and `daily_user_activity`, then execute `analysis.sql`.
 
 ## Tools
 
@@ -78,4 +68,4 @@ Python (pandas, NumPy, SciPy, Matplotlib), SQL (SQLite, CTEs, window functions, 
 
 ## Author
 
-**Amit Verma**,Intern Data Analytics.
+**Amit Verma**, Aspiring Data Analytics.
